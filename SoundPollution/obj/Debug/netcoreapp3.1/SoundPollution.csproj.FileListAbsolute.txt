@@ -1,0 +1,17 @@
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.exe
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.deps.json
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.runtimeconfig.json
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.runtimeconfig.dev.json
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.dll
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\SoundPollution.pdb
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.csproj.AssemblyReference.cache
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.csproj.GenerateResource.cache
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.AssemblyInfoInputs.cache
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.AssemblyInfo.cs
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.csproj.CoreCompileInputs.cache
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.dll
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.pdb
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.genruntimeconfig.cache
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\bin\Debug\netcoreapp3.1\PaletteMixr.dll
+C:\Users\okuch\source\repos\SoundPollution\SoundPollution\obj\Debug\netcoreapp3.1\SoundPollution.MainForm.resources

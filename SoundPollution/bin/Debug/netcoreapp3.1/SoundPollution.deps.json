@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SoundPollution/1.0.0": {
+        "dependencies": {
+          "PaletteMixr": "0.1.0"
+        },
+        "runtime": {
+          "SoundPollution.dll": {}
+        }
+      },
+      "PaletteMixr/0.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/PaletteMixr.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SoundPollution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaletteMixr/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2SyRZrDDeSH8BrFNnHNcRw4pXjUO7+tcwiC397LxgwtnodOLw2POge7Bv4zK7wJVknvbTTOmqSziyP7lBoPs/A==",
+      "path": "palettemixr/0.1.0",
+      "hashPath": "palettemixr.0.1.0.nupkg.sha512"
+    }
+  }
+}
