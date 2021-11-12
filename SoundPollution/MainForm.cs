@@ -37,11 +37,19 @@ namespace SoundPollution
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             int radius = int.Parse(radiusTextBox.Text.ToString());
+            int numberOfPoints = int.Parse(numberOfPointsTextBox.Text.ToString());
             int minIntensity = int.Parse(minIntensityTextBox.Text.ToString());
             int maxIntensity = int.Parse(maxIntensityTextBox.Text.ToString());
+            GenerationType generationType = radioButton1.Checked ? GenerationType.CENTRALIZED : GenerationType.UNIFORM;
 
             pollutionRadars.Add(
-                new PollutionRadar(((MouseEventArgs)e).Location, radius, minIntensity, maxIntensity));
+                new PollutionRadar(
+                    ((MouseEventArgs)e).Location,
+                    radius,
+                    numberOfPoints,
+                    minIntensity,
+                    maxIntensity,
+                    generationType));
 
             pictureBox1.Invalidate();
         }
