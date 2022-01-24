@@ -22,6 +22,7 @@ namespace SoundPollution
         }
         public PollutionPoint(Point location, byte intensity)
         {
+
             this.location = location;
             this.intensity = intensity;
         }

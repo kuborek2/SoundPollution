@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -93,6 +94,34 @@ namespace SoundPollution
         {
             pollutionRadars.Clear();
             pictureBox1.Invalidate();
+        }
+
+        private void exportDataButton_Click(object sender, EventArgs e)
+        {
+            //before your loop
+            var csv = new StringBuilder();
+            var firstLine = string.Format("{0},{1},{2},{3},{4},{5}", "Koordynat X", "Koordynat Y",
+                "Radius", "MaxIntensity", "MinIntensity", "NumberOfPoints");
+            csv.AppendLine(firstLine);
+
+            //in your loop
+
+            foreach (PollutionRadar pr in pollutionRadars)
+            {
+                //Suggestion made by KyleMit
+                var basicLine = string.Format("{0},{1},{2},{3},{4},{5}", pr.Location.X, pr.Location.Y,
+                    pr.Radius, pr.MaxIntensity, pr.MinIntensity, pr.NumberOfPoints); // Pollution Radar new line 
+                csv.AppendLine(basicLine);
+                foreach (PollutionPoint pp in pr.PollutionPoints)
+                {
+                    var ppLine = string.Format("{0},{1},{2},{3}", ":", pp.Location.X, pp.Location.Y, pp.Intensity); // Pollution Point new line
+                    csv.AppendLine(ppLine);
+                }
+            }
+
+            //after your loop
+            string startupPath = System.IO.Directory.GetCurrentDirectory();
+            File.WriteAllText(@"C:\csv_gen\gen.csv", csv.ToString());
         }
     }
 }

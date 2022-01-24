@@ -42,6 +42,7 @@ namespace SoundPollution
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.exportDataButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -49,9 +50,10 @@ namespace SoundPollution
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(861, 742);
+            this.pictureBox1.Size = new System.Drawing.Size(753, 556);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -59,9 +61,10 @@ namespace SoundPollution
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(913, 423);
+            this.clearButton.Location = new System.Drawing.Point(799, 317);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(151, 47);
+            this.clearButton.Size = new System.Drawing.Size(132, 35);
             this.clearButton.TabIndex = 1;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -69,78 +72,83 @@ namespace SoundPollution
             // 
             // radiusTextBox
             // 
-            this.radiusTextBox.Location = new System.Drawing.Point(913, 180);
+            this.radiusTextBox.Location = new System.Drawing.Point(799, 135);
+            this.radiusTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radiusTextBox.Name = "radiusTextBox";
-            this.radiusTextBox.Size = new System.Drawing.Size(76, 27);
+            this.radiusTextBox.Size = new System.Drawing.Size(67, 23);
             this.radiusTextBox.TabIndex = 2;
             this.radiusTextBox.Text = "60";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(913, 157);
+            this.label1.Location = new System.Drawing.Point(799, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 20);
+            this.label1.Size = new System.Drawing.Size(42, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Radius";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(913, 263);
+            this.label2.Location = new System.Drawing.Point(799, 197);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 20);
+            this.label2.Size = new System.Drawing.Size(101, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Min intensity [>0]";
             // 
             // minIntensityTextBox
             // 
-            this.minIntensityTextBox.Location = new System.Drawing.Point(913, 286);
+            this.minIntensityTextBox.Location = new System.Drawing.Point(799, 214);
+            this.minIntensityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.minIntensityTextBox.Name = "minIntensityTextBox";
-            this.minIntensityTextBox.Size = new System.Drawing.Size(76, 27);
+            this.minIntensityTextBox.Size = new System.Drawing.Size(67, 23);
             this.minIntensityTextBox.TabIndex = 4;
             this.minIntensityTextBox.Text = "16";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(913, 321);
+            this.label3.Location = new System.Drawing.Point(799, 241);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 20);
+            this.label3.Size = new System.Drawing.Size(108, 15);
             this.label3.TabIndex = 7;
             this.label3.Text = "Max intesity [<255]";
             // 
             // maxIntensityTextBox
             // 
-            this.maxIntensityTextBox.Location = new System.Drawing.Point(913, 344);
+            this.maxIntensityTextBox.Location = new System.Drawing.Point(799, 258);
+            this.maxIntensityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.maxIntensityTextBox.Name = "maxIntensityTextBox";
-            this.maxIntensityTextBox.Size = new System.Drawing.Size(76, 27);
+            this.maxIntensityTextBox.Size = new System.Drawing.Size(67, 23);
             this.maxIntensityTextBox.TabIndex = 6;
             this.maxIntensityTextBox.Text = "24";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(913, 210);
+            this.label4.Location = new System.Drawing.Point(799, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 20);
+            this.label4.Size = new System.Drawing.Size(101, 15);
             this.label4.TabIndex = 9;
             this.label4.Text = "Number of points";
             // 
             // numberOfPointsTextBox
             // 
-            this.numberOfPointsTextBox.Location = new System.Drawing.Point(913, 233);
+            this.numberOfPointsTextBox.Location = new System.Drawing.Point(799, 175);
+            this.numberOfPointsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numberOfPointsTextBox.Name = "numberOfPointsTextBox";
-            this.numberOfPointsTextBox.Size = new System.Drawing.Size(76, 27);
+            this.numberOfPointsTextBox.Size = new System.Drawing.Size(67, 23);
             this.numberOfPointsTextBox.TabIndex = 8;
             this.numberOfPointsTextBox.Text = "150";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(19, 26);
+            this.radioButton1.Location = new System.Drawing.Point(17, 20);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(103, 24);
+            this.radioButton1.Size = new System.Drawing.Size(82, 19);
             this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "centralized";
@@ -150,9 +158,11 @@ namespace SoundPollution
             // 
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(913, 41);
+            this.groupBox1.Location = new System.Drawing.Point(799, 31);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(185, 96);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(162, 72);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Point generation";
@@ -161,20 +171,32 @@ namespace SoundPollution
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(19, 56);
+            this.radioButton2.Location = new System.Drawing.Point(17, 42);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(82, 24);
+            this.radioButton2.Size = new System.Drawing.Size(68, 19);
             this.radioButton2.TabIndex = 12;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "uniform";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+            // exportDataButton
+            // 
+            this.exportDataButton.Location = new System.Drawing.Point(799, 381);
+            this.exportDataButton.Name = "exportDataButton";
+            this.exportDataButton.Size = new System.Drawing.Size(132, 35);
+            this.exportDataButton.TabIndex = 12;
+            this.exportDataButton.Text = "Export Data";
+            this.exportDataButton.UseVisualStyleBackColor = true;
+            this.exportDataButton.Click += new System.EventHandler(this.exportDataButton_Click);
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1121, 773);
+            this.ClientSize = new System.Drawing.Size(981, 580);
+            this.Controls.Add(this.exportDataButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.numberOfPointsTextBox);
@@ -186,6 +208,7 @@ namespace SoundPollution
             this.Controls.Add(this.radiusTextBox);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainForm";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -210,6 +233,7 @@ namespace SoundPollution
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Button exportDataButton;
     }
 }
 

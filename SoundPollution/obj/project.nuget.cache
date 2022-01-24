@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d/vHvjVzPLSi9QmpzOmDin8z9J4GOnqvX5QE+7wHSNV38y13pI5tC/p8VwKulIvIdU9hqNUGIktFjsmG1J6M/g==",
+  "dgSpecHash": "FaF5Ro3LpiiM5be/XzfCHdlBNK0esfm4de6oElG59VJUOtM8oyKSZsabx9cKtAil6mhrXtPEX6CC++RqTzImGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\okuch\\source\\repos\\SoundPollution\\SoundPollution\\SoundPollution.csproj",
+  "projectFilePath": "C:\\Users\\Kuba\\source\\repos\\SoundPollution2022\\SoundPollution2022\\SoundPollution\\SoundPollution.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\okuch\\.nuget\\packages\\palettemixr\\0.1.0\\palettemixr.0.1.0.nupkg.sha512"
+    "C:\\Users\\Kuba\\.nuget\\packages\\palettemixr\\0.1.0\\palettemixr.0.1.0.nupkg.sha512"
   ],
   "logs": []
 }
