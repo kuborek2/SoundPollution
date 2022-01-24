@@ -58,8 +58,8 @@ namespace SoundPollution
 
 
                 double angle = random.NextDouble() * Math.PI * 2;
-                double x = Location.X + radius * Math.Sin(angle);
-                double y = Location.Y + radius * Math.Cos(angle);
+                double x = Location.X + radius * Math.Cos(angle);
+                double y = Location.Y + radius * Math.Sin(angle);
 
                 byte intensity = (byte)random.Next(minIntensity, maxIntensity);
 
